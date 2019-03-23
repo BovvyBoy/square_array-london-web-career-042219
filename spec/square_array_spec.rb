@@ -2,6 +2,7 @@ describe '#square_array' do
 
 def square_array(numbers)
   numbers.each
+  square_array.collect
 end
 
   it 'does not call on collect/map or inject' do
