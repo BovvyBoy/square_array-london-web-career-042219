@@ -1,5 +1,10 @@
 describe '#square_array' do
 
+def square_array(numbers)
+  numbers.each
+end
+end
+
   it 'does not call on collect/map or inject' do
     numbers = [1,2,3]
     expect(numbers).to_not receive(:collect)
